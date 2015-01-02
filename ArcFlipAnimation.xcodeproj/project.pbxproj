@@ -14,6 +14,8 @@
 		409C79E81A56D0E0006FE0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409C79E71A56D0E0006FE0A9 /* Images.xcassets */; };
 		409C79EB1A56D0E0006FE0A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409C79E91A56D0E0006FE0A9 /* LaunchScreen.xib */; };
 		409C79F71A56D0E0006FE0A9 /* ArcFlipAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C79F61A56D0E0006FE0A9 /* ArcFlipAnimationTests.m */; };
+		409C7A021A56D0FB006FE0A9 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C7A011A56D0FB006FE0A9 /* ArcView.m */; };
+		409C7A051A56DFAE006FE0A9 /* ProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C7A041A56DFAE006FE0A9 /* ProgressLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		409C79F01A56D0E0006FE0A9 /* ArcFlipAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcFlipAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409C79F51A56D0E0006FE0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		409C79F61A56D0E0006FE0A9 /* ArcFlipAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArcFlipAnimationTests.m; sourceTree = "<group>"; };
+		409C7A001A56D0FB006FE0A9 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		409C7A011A56D0FB006FE0A9 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		409C7A031A56DFAE006FE0A9 /* ProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressLayer.h; sourceTree = "<group>"; };
+		409C7A041A56DFAE006FE0A9 /* ProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				409C79DF1A56D0E0006FE0A9 /* AppDelegate.m */,
 				409C79E11A56D0E0006FE0A9 /* ViewController.h */,
 				409C79E21A56D0E0006FE0A9 /* ViewController.m */,
+				409C7A001A56D0FB006FE0A9 /* ArcView.h */,
+				409C7A011A56D0FB006FE0A9 /* ArcView.m */,
+				409C7A031A56DFAE006FE0A9 /* ProgressLayer.h */,
+				409C7A041A56DFAE006FE0A9 /* ProgressLayer.m */,
 				409C79E41A56D0E0006FE0A9 /* Main.storyboard */,
 				409C79E71A56D0E0006FE0A9 /* Images.xcassets */,
 				409C79E91A56D0E0006FE0A9 /* LaunchScreen.xib */,
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				409C79E31A56D0E0006FE0A9 /* ViewController.m in Sources */,
+				409C7A051A56DFAE006FE0A9 /* ProgressLayer.m in Sources */,
+				409C7A021A56D0FB006FE0A9 /* ArcView.m in Sources */,
 				409C79E01A56D0E0006FE0A9 /* AppDelegate.m in Sources */,
 				409C79DD1A56D0E0006FE0A9 /* main.m in Sources */,
 			);
